@@ -46,7 +46,7 @@ ver 2.0 efh 5455 efh 7875 1816/1814.tar PKZIP Encr: 2b chk, TS_chk, cmplen=23390
 ```
 And inside got `1814.tar`, still got many layers
 
-I wrote a bash script for auto extract this:
+I wrote a bash script for auto extract all layers based on the file type:
 ```bash
 #!/bin/bash
 mkdir chall
@@ -95,6 +95,7 @@ done
 ```
 
 `chmod +x solve.sh` and run it `./solve.sh`
+
 Result:
 ```
 ...
